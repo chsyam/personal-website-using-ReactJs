@@ -1,0 +1,84 @@
+.sec-head {
+  margin: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color:rgb(0, 102, 255);
+  background: #76b852;
+  background: -webkit-linear-gradient(to right, #8DC26F, #76b852);
+  background: linear-gradient(to right, #8DC26F, #76b852);
+  text-align: center;
+}
+.projects {
+  margin:3%;
+}
+.projects .items{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.projects .items .item{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin:10px 20px 40px 15px;
+  width: 350px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 4px black;
+}
+.item table thead th{
+  font-size: 24px;
+  color:black;
+  text-shadow: 1px 1px 1px black;
+  font-weight: lighter;
+  display: table-cell;
+  vertical-align:middle;
+  box-shadow: 1px 1px 4px black;
+}
+tbody, td, tfoot, th, thead, tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+}
+.item table img{
+  box-shadow: 1px 1px 10px black;
+  border-radius: 5px;
+  margin: 20px;
+}
+.item table thead tr{
+  height: 70px;
+}
+.item table tbody tr:nth-child(1) {
+  border-top:1px solid black;
+  height:30px;
+}
+.item table tbody tr .description{
+  text-align:justify;
+  margin:5px 10px 0 10px;
+  color:rgb(21, 52, 53);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  height: 120px;
+  overflow-y:scroll;
+}
+.item table tbody tr:nth-child(6) {
+  height: 35px;
+  border-top: 1px solid black;
+}
+.item table tbody tr:nth-child(3),tr:nth-child(4),tr:nth-child(5) {
+  border-top: 1px dotted black;
+}
+.item table tbody tr:nth-child(3) th,tr:nth-child(4) th,tr:nth-child(5) th{
+  text-align: left;
+  padding: 5px;
+}
+.item table tbody tr:nth-child(1) td{
+  padding-top: 5px;
+  border-bottom: 1px solid white;
+}
+.item table tbody tr:nth-child(3) td,tr:nth-child(4) td,tr:nth-child(5) td{
+  padding: 5px;
+  font-size: 16px;
+  text-align: left;
+}
+.external_links{
+  display: flex;
+  justify-content: space-around;
+}

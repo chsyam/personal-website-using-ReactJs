@@ -1,0 +1,14 @@
+.header{
+    font-family: 'Times New Roman', Times, serif;
+    margin:5px 10px;
+}
+.header-list ul{
+    display: flex;
+    justify-content: center;
+}
+.header-list ul li{
+    padding:5px 10px;
+    margin: 5px 20px;
+    border-radius: 5px;
+    background-color: rgb(130, 244, 244);
+}

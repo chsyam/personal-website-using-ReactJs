@@ -1,0 +1,10 @@
+.footer{
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    bottom: 0;
+    padding: 3px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(16, 36, 30);
+    color: white;
+}

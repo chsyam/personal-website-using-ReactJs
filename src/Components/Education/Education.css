@@ -1,0 +1,28 @@
+.education {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.education table {
+  text-align: center;
+  margin: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  border: 1px solid black;
+  width: 400px;
+  height: 210px;
+  box-shadow: 2px 2px 10px black;
+  padding: 10px;
+}
+.education table td {
+  display: flex;
+  text-align: left;
+  padding-left: 20px;
+}
+.education table th {
+  font-size: larger;
+  padding: 5px 0;
+  border-bottom: 1px solid black;
+}
+.score{
+  border-top: 1px dotted black;
+}
